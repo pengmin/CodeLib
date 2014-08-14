@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link type="text/css" href="Pager.css" rel="stylesheet" />
+	<script src="Pager.js"></script>
+</head>
+<body>
+	<div class="mod_page"></div>
+</body>
+</html>
+<script>
+	$(".mod_page").pager({
+		url: 'url',//翻页时目的地址，用于刷新页面翻页
+		onChanging: function (page) { }//翻页事件，用于无刷新翻页
+	});
+
+</script>

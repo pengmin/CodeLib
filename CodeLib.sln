@@ -3,11 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScripts", "JavaScripts", "{F69BA367-0207-4C86-81F6-495CBBA3416D}"
 	ProjectSection(SolutionItems) = preProject
+		Demo.html = Demo.html
 		Pager.js = Pager.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{FB1715C0-5F3A-4BFC-9E50-B6B457FEBA60}"
+	ProjectSection(SolutionItems) = preProject
+		Pager.css = Pager.css
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB1715C0-5F3A-4BFC-9E50-B6B457FEBA60} = {F69BA367-0207-4C86-81F6-495CBBA3416D}
 	EndGlobalSection
 EndGlobal
