@@ -87,8 +87,8 @@
 		}
 		return a;
 	}
-	function isFirst() { return this.settings.current == 1; }
-	function isLast() { return this.settings.total == this.settings.current; }
+	function isFirst() { return this.settings.current <= 1; }
+	function isLast() { return this.settings.total <= this.settings.current; }
 	function hasPrev() { return !$.proxy(isFirst, this)(); }
 	function hasNext() { return !$.proxy(isLast, this)(); }
 	function getPrev() { return $.proxy(isFirst, this)() ? this.settings.current : this.settings.current - 1; }
