@@ -1,0 +1,13 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScripts", "JavaScripts", "{F69BA367-0207-4C86-81F6-495CBBA3416D}"
+	ProjectSection(SolutionItems) = preProject
+		Pager.js = Pager.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
